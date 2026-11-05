@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+PackageIdentifier: RamyElbeitam.ApplicantPackager
+PackageVersion: 1.0.6
+InstallerType: inno
+Scope: user
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ProductCode: '{3F2A1B4C-7D9E-4A6B-8C5D-1E2F3A4B5C6D}_is1'
+ReleaseDate: 2026-11-05
+Installers:
+- Architecture: x64
+  InstallerUrl: https://applicantpackager.com/ApplicantPackager-1.0.6-setup.exe
+  InstallerSha256: 89E6DB77EF7BEFDA3963E56597FBABBF6BB0976BF02735C1C0841F02CFC21EA2
+ManifestType: installer
+ManifestVersion: 1.10.0
