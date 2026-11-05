@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+PackageIdentifier: RamyElbeitam.ApplicantPackager
+PackageVersion: 1.0.6
+PackageLocale: en-US
+Publisher: Ramy Elbeitam
+PublisherUrl: https://applicantpackager.com/about
+PublisherSupportUrl: https://applicantpackager.com/contact
+PrivacyUrl: https://applicantpackager.com/privacy
+Author: Ramy Elbeitam
+PackageName: Applicant Packager
+PackageUrl: https://applicantpackager.com/
+License: Freeware
+LicenseUrl: https://applicantpackager.com/terms
+Copyright: Copyright (c) 2026 Ramy Elbeitam
+ShortDescription: Find job applications in your inbox and save the CVs into one folder per applicant.
+Description: |-
+  Applicant Packager is a free Windows app for recruiters and small agencies. It scans a Thunderbird mailbox or an IMAP inbox (Gmail, Outlook and Microsoft 365, Yahoo) for job application emails, shows why each one matched your keywords, reads inside PDF, Word and scanned CVs, and saves the CVs you select into folders by search, role and applicant.
+  It is read-only: it never moves, deletes or marks mail, and the files stay on your computer. It also includes the read-only applicants command-line tool.
+Moniker: applicant-packager
+Tags:
+- recruitment
+- recruiting
+- cv
+- resume
+- email
+- attachments
+- gmail
+- outlook
+- thunderbird
+- hr
+ReleaseNotesUrl: https://applicantpackager.com/#whats-new
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0
